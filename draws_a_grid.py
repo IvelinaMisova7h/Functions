@@ -1,11 +1,14 @@
-def drawing_a_grid():
+def drawing_plus_minus():
     print('+' + 4*' - ' + '+' + 4*' - ' + '+')
-    for i in range(0, 4):
-        print('|' + 12*' ' + '|' + 12*' ' + '|')
-    print('+' + 4 * ' - ' + '+' + 4 * ' - ' + '+')
-    for i in range(0, 4):
-        print('|' + 12*' ' + '|' + 12*' ' + '|')
-    print('+' + 4 * ' - ' + '+' + 4 * ' - ' + '+')
 
 
-drawing_a_grid()
+def drawing_bars():
+    for i in range(0, 4):
+        print('|' + 12*' ' + '|' + 12*' ' + '|')
+
+
+drawing_plus_minus()
+drawing_bars()
+drawing_plus_minus()
+drawing_bars()
+drawing_plus_minus()
